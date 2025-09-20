@@ -10,32 +10,33 @@ edit_uri: edit/main/docs/
 copyright: Karel de Grote Hogeschool<br>Multimedia & Creatieve Technologie
 
 nav:
-  - 👋 Introductie: index.md
+  - 👋 Welkom: index.md
   - Git Basics:
-    - git/basics/index.md
-    - git/basics/repositories.md
-    - git/basics/stage-commit-push.md
-    - git/basics/clone-pull.md
+    - basics/index.md
+    - basics/02.repositories.md
+    - basics/03.stage-commit-push.md
+    - basics/04.clone-pull.md
   - Samenwerken:
-    - git/collaboration/index.md
-    - git/collaboration/blame.md
-    - git/collaboration/merge-conflicts.md
-    - git/collaboration/pull-requests.md
+    - collaboration/01.index.md
+    - collaboration/02.blame.md
+    - collaboration/03.merge-conflicts.md
+    - collaboration/04.pull-requests.md
   - Branches:
-    - git/branches/index.md
-    - git/branches/workflows.md
-    - git/branches/advanced.md
+    - branches/01.index.md
+    - branches/02.workflows.md
+    - branches/03.advanced.md
   - Extra Git Tools:
-    - git/tools/gitignore.md
-    - git/tools/stash.md
-    - git/tools/tags.md
-    - git/tools/rebase.md
-    - git/tools/cherry-pick.md
+    - tools/01.gitignore.md
+    - tools/02.stash.md
+    - tools/03.tags.md
+    - tools/04.rebase.md
+    - tools/05.cherry-pick.md
   - Software:
-    - git/software/index.md
+    - software/01.index.md
   - ❓ Appendix:
-    - appendix/resources.md
-    - appendix/commands-cheatsheet.md
+    - appendix/index.md
+    - appendix/01.resources.md
+    - appendix/02.commands-cheatsheet.md
 
 theme:
   name: material
@@ -67,10 +68,10 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
-  - git-committers:
-      repository: mctantwerp/learn-welkom
-      branch: develop
-      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  # - git-committers:
+  #     repository: mctantwerp/kdg-learn-git
+  #     branch: main
+  #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 extra_css:
   - _resources/styles/main.css
