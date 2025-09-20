@@ -1,0 +1,3 @@
+# .gitignore
+
+Met een `.gitignore` bestand ...

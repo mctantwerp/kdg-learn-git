@@ -1,0 +1,3 @@
+# Stage, Commit & Push
+
+Een typische workflow in Git ziet er zo uit ...

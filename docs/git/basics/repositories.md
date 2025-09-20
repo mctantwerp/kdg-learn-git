@@ -1,0 +1,3 @@
+# Repositories
+
+Een **repository** (repo) is de kern van Git ...

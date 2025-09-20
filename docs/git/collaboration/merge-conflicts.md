@@ -1,0 +1,3 @@
+# Merge Conflicts
+
+Conflicten ontstaan wanneer ...

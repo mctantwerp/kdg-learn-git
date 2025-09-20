@@ -1,0 +1,3 @@
+# Samenwerken met Git
+
+Git komt pas echt tot zijn recht wanneer je ...

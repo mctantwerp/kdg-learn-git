@@ -1,0 +1,3 @@
+# Git Cherry-pick
+
+Met cherry-pick kan je ...
