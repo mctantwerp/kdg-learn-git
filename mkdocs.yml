@@ -1,10 +1,10 @@
-site_name: COURSE_NAME
-site_url: COURSE_GIT_URL
+site_name: Git
+site_url: https://learn.git.mctantwerp.be
 site_author: Sam Serrien
-site_description: COURSE_DESCRIPTION
+site_description: Git cursus voor MCT studenten
 
-repo_name: mctantwerp/COURSE_REPO
-repo_url: https://github.com/mctantwerp/COURSE_REPO
+repo_name: mctantwerp/kdg-learn-git
+repo_url: https://github.com/mctantwerp/kdg-learn-git
 edit_uri: edit/main/docs/
 
 copyright: Karel de Grote Hogeschool<br>Multimedia & Creatieve Technologie
