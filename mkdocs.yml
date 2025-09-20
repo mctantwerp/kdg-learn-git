@@ -1,10 +1,10 @@
-site_name: Git
-site_url: https://devops.basics.learn.mctantwerp.be
+site_name: COURSE_NAME
+site_url: COURSE_GIT_URL
 site_author: Sam Serrien
-site_description: Basis cursus over template
+site_description: COURSE_DESCRIPTION
 
-repo_name: mctantwerp/learn-devops-basics
-repo_url: https://github.com/mctantwerp/learn-devops-basics
+repo_name: mctantwerp/COURSE_REPO
+repo_url: https://github.com/mctantwerp/COURSE_REPO
 edit_uri: edit/main/docs/
 
 copyright: Karel de Grote Hogeschool<br>Multimedia & Creatieve Technologie
@@ -31,6 +31,8 @@ nav:
     - git/tools/tags.md
     - git/tools/rebase.md
     - git/tools/cherry-pick.md
+  - Software:
+    - git/software/index.md
   - ❓ Appendix:
     - appendix/resources.md
     - appendix/commands-cheatsheet.md

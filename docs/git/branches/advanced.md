@@ -1,3 +1,27 @@
 # Advanced Branching
 
-Naast de basics bestaan er advanced flows zoals ...
+## Rebase
+
+Een alternatief voor merge waarbij de geschiedenis herschreven wordt.  
+```bash
+git checkout feature
+git rebase main
+```
+
+!!! warning
+    Pas op met rebase op gedeelde branches.
+
+## Cherry-pick
+
+Een specifieke commit toepassen op een andere branch.  
+```bash
+git cherry-pick <commit-id>
+```
+
+---
+
+## Oefeningen
+
+1. Maak 2 branches en commit op beide.  
+2. Rebase de ene branch op de andere.  
+3. Cherry-pick een specifieke commit naar main.

@@ -1,3 +1,35 @@
 # Repositories
 
-Een **repository** (repo) is de kern van Git ...
+Een **repository** (afgekort repo) is de centrale map waarin Git alle bestanden en hun geschiedenis bewaart.  
+
+## Types repositories
+
+- **Lokale repository**: op je eigen computer.  
+- **Remote repository**: op een server zoals GitHub, GitLab of Bitbucket.  
+
+## Lokale repo maken
+
+```bash
+mkdir mijn-project
+cd mijn-project
+git init
+```
+
+!!! warning
+    Voer `git init` enkel uit in de juiste map. Een nested repo (een repo binnen een repo) geeft vaak problemen.
+
+## Remote repo klonen
+
+```bash
+git clone https://github.com/user/project.git
+```
+
+[@TODO IMAGE: Schema verschil lokaal vs remote repo]
+
+---
+
+## Oefeningen
+
+1. Maak lokaal een nieuwe repo en commit een bestand.  
+2. Clone een publieke repo van GitHub.  
+3. Bekijk de remote instellingen met `git remote -v`.
