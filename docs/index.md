@@ -22,7 +22,7 @@ In de begindagen van softwareontwikkeling (en eigenlijk ook bij gewoon documentb
     - project_final_v2.doc
     - project_final_v2_reallyFINAL.doc
 
-[@TODO IMAGE: voorbeeld van een map met tientallen versies van hetzelfde bestand met verschillende namen]
+![](/_resources/images/oldschool_folders.png)
 
 Dit leidde tot allerlei problemen:
 

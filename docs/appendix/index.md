@@ -8,3 +8,6 @@
 * [GitKraken](https://www.gitkraken.com/){:target="_blank"}
 * [Git Bash](https://git-scm.com/downloads){:target="_blank"}
 * [Git](https://git-scm.com/){:target="_blank"}
+* [Git Tower](https://www.git-tower.com/){:target="_blank"}
+* [Kevintshoemaker](https://kevintshoemaker.github.io/StatsChats/GIT_tutorial.html){:target="_blank"}
+* [GeeksforGeeks](https://www.geeksforgeeks.org/git/working-on-git-bash/){:target="_blank"}
